@@ -44,3 +44,30 @@ nav {
     font-size: 1.1rem;
     font-weight: 400;
 }
+
+/* Travel Search Section */
+
+.search{
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.travel-search {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-title {
+    /* color: #FFF; */
+    font-size: 4rem;
+    font-weight: 800;
+}
+.search-description {
+    /* color: #FFF; */
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+.search-destination {
+    margin-top: 4rem;
+}
