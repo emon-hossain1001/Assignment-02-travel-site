@@ -1,3 +1,46 @@
-h1{
-    color: skyblue;
+/* common shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+.nav-title {
+    display: inline-flex;
+    align-items: center;
+}
+.nav-title img{
+    width: 3rem;
+    height: 3.75rem;
+    padding-right: 1rem;
+}
+.title{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.nav-bar > ul{
+    display: flex;
+    gap: 1rem;
+
+}
+.nav-bar li {
+    list-style: none;
+    
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
